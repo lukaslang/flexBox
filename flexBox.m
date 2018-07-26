@@ -186,6 +186,7 @@ classdef flexBox < handle
                     iteration = iteration + 1;
                 end
                 printToCmd( reverseStr,'');
+                obj.firstRun = true;
             end
         end
     end
